@@ -1,0 +1,14 @@
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\bin\Debug\ProjetoMosquito.exe.config
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\bin\Debug\ProjetoMosquito.exe
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\bin\Debug\ProjetoMosquito.pdb
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.csproj.AssemblyReference.cache
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.Properties.Resources.resources
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.csproj.GenerateResource.cache
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.csproj.CoreCompileInputs.cache
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.exe
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.pdb
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.frmSplash.resources
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.frmLogin.resources
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.frmCalculos.resources
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.frmComponentes.resources
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.frmCalculadora.resources
