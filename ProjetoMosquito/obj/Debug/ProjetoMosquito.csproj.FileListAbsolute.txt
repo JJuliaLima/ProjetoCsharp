@@ -12,3 +12,5 @@ C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\
 C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.frmCalculos.resources
 C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.frmComponentes.resources
 C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.frmCalculadora.resources
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.frmMenuPrincipal.resources
+C:\Users\julia.laraujo2\Documents\Visual Studio 2019\empresaABC\ProjetoMosquito\obj\Debug\ProjetoMosquito.frmFuncionarios.resources
