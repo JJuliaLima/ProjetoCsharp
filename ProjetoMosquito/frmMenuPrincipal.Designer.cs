@@ -30,7 +30,7 @@ namespace ProjetoMosquito
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenuPrincipal));
-            this.btnFuncionario = new System.Windows.Forms.Button();
+            this.btnFuncionarios = new System.Windows.Forms.Button();
             this.btnTarefas = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
@@ -41,18 +41,19 @@ namespace ProjetoMosquito
             this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnFuncionario
+            // btnFuncionarios
             // 
-            this.btnFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnFuncionario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
-            this.btnFuncionario.Location = new System.Drawing.Point(40, 56);
-            this.btnFuncionario.Name = "btnFuncionario";
-            this.btnFuncionario.Size = new System.Drawing.Size(161, 136);
-            this.btnFuncionario.TabIndex = 0;
-            this.btnFuncionario.Text = "&Funcionários";
-            this.btnFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnFuncionario.UseVisualStyleBackColor = true;
+            this.btnFuncionarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFuncionarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFuncionarios.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionarios.Image")));
+            this.btnFuncionarios.Location = new System.Drawing.Point(40, 56);
+            this.btnFuncionarios.Name = "btnFuncionarios";
+            this.btnFuncionarios.Size = new System.Drawing.Size(161, 136);
+            this.btnFuncionarios.TabIndex = 0;
+            this.btnFuncionarios.Text = "&Funcionários";
+            this.btnFuncionarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnFuncionarios.UseVisualStyleBackColor = true;
+            this.btnFuncionarios.Click += new System.EventHandler(this.btnFuncionarios_Click);
             // 
             // btnTarefas
             // 
@@ -69,6 +70,7 @@ namespace ProjetoMosquito
             // 
             // btnClientes
             // 
+            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
             this.btnClientes.Location = new System.Drawing.Point(40, 223);
@@ -76,10 +78,12 @@ namespace ProjetoMosquito
             this.btnClientes.Size = new System.Drawing.Size(161, 136);
             this.btnClientes.TabIndex = 4;
             this.btnClientes.Text = "&Clientes";
+            this.btnClientes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnClientes.UseVisualStyleBackColor = true;
             // 
             // btnUsuarios
             // 
+            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.Image")));
             this.btnUsuarios.Location = new System.Drawing.Point(616, 221);
@@ -87,11 +91,12 @@ namespace ProjetoMosquito
             this.btnUsuarios.Size = new System.Drawing.Size(161, 136);
             this.btnUsuarios.TabIndex = 7;
             this.btnUsuarios.Text = "&Usuários";
+            this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUsuarios.UseVisualStyleBackColor = true;
             // 
             // btnOrcamentos
             // 
-            this.btnOrcamentos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnOrcamentos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOrcamentos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOrcamentos.Image = ((System.Drawing.Image)(resources.GetObject("btnOrcamentos.Image")));
             this.btnOrcamentos.Location = new System.Drawing.Point(616, 56);
@@ -99,10 +104,12 @@ namespace ProjetoMosquito
             this.btnOrcamentos.Size = new System.Drawing.Size(161, 136);
             this.btnOrcamentos.TabIndex = 3;
             this.btnOrcamentos.Text = "&Orçamentos";
+            this.btnOrcamentos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnOrcamentos.UseVisualStyleBackColor = true;
             // 
             // frmEventos
             // 
+            this.frmEventos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.frmEventos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.frmEventos.Image = ((System.Drawing.Image)(resources.GetObject("frmEventos.Image")));
             this.frmEventos.Location = new System.Drawing.Point(436, 221);
@@ -110,10 +117,12 @@ namespace ProjetoMosquito
             this.frmEventos.Size = new System.Drawing.Size(161, 136);
             this.frmEventos.TabIndex = 6;
             this.frmEventos.Text = "&Eventos";
+            this.frmEventos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.frmEventos.UseVisualStyleBackColor = true;
             // 
             // frmFornecedores
             // 
+            this.frmFornecedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.frmFornecedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.frmFornecedores.Image = ((System.Drawing.Image)(resources.GetObject("frmFornecedores.Image")));
             this.frmFornecedores.Location = new System.Drawing.Point(236, 221);
@@ -121,11 +130,12 @@ namespace ProjetoMosquito
             this.frmFornecedores.Size = new System.Drawing.Size(161, 136);
             this.frmFornecedores.TabIndex = 5;
             this.frmFornecedores.Text = "F&ornecedores";
+            this.frmFornecedores.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.frmFornecedores.UseVisualStyleBackColor = true;
             // 
             // btnProdutos
             // 
-            this.btnProdutos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnProdutos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProdutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProdutos.Image = ((System.Drawing.Image)(resources.GetObject("btnProdutos.Image")));
             this.btnProdutos.Location = new System.Drawing.Point(436, 56);
@@ -133,17 +143,24 @@ namespace ProjetoMosquito
             this.btnProdutos.Size = new System.Drawing.Size(161, 136);
             this.btnProdutos.TabIndex = 2;
             this.btnProdutos.Text = "&Produtos";
+            this.btnProdutos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnProdutos.UseVisualStyleBackColor = true;
+            this.btnProdutos.Click += new System.EventHandler(this.btnProdutos_Click);
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(659, 403);
+            this.btnVoltar.FlatAppearance.BorderSize = 2;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
+            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVoltar.Location = new System.Drawing.Point(659, 404);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(118, 35);
+            this.btnVoltar.Size = new System.Drawing.Size(118, 34);
             this.btnVoltar.TabIndex = 8;
-            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.Text = "   Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // frmMenuPrincipal
             // 
@@ -158,19 +175,20 @@ namespace ProjetoMosquito
             this.Controls.Add(this.btnUsuarios);
             this.Controls.Add(this.btnClientes);
             this.Controls.Add(this.btnTarefas);
-            this.Controls.Add(this.btnFuncionario);
+            this.Controls.Add(this.btnFuncionarios);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmMenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Sistema ABC - Menu Principal";
+            this.Text = " ";
+            this.Load += new System.EventHandler(this.frmMenuPrincipal_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btnFuncionario;
+        private System.Windows.Forms.Button btnFuncionarios;
         private System.Windows.Forms.Button btnTarefas;
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Button btnUsuarios;
